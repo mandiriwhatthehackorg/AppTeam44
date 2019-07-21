@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#032D67</color>
+    <color name="colorPrimaryDark">#F3B844</color>
+    <color name="colorPrimaryLight">#B3E5FC</color>
+    <color name="colorAccent">#79B1DE</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+
+    <color name="buttonGreyDefault">#BDBDBD</color>
+    <color name="buttonGreyFocus">#757575</color>
+    <color name="buttonBlueDefault">#63AFE1</color>
+    <color name="buttonBlueFocus">#1c5c87</color>
+    <color name="buttonBlueBorder">#006bae</color>
+    <color name="buttonOrangeDefault">#F49214</color>
+    <color name="buttonOrangeFocus">#a75e01</color>
+    <color name="buttonOrangeBorder">#cd701e</color>
+    <color name="background_color">#F9A714</color>
+    <color name="recycler_divider">#DEDCDE</color>
+    <color name="whiteTransparent70Percent">#B3FFFFFF</color>
+    <color name="colorBlackTransparent">#aa000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlue">#00A5BC</color>
+    <color name="colorDotTimeline">#f00</color>
+    <color name="button_color">#ff8f00</color>
+    <color name="colorButtonUnselected">#F3B844</color>
+    <color name="colorButtonSelected">#F3B844</color>
+    <color name="colorButtonDisabled">#808080</color>
+    <color name="colorCameraHintBackground">#aa000000</color>
+</resources>

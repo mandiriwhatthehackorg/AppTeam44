@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rl_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_text_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/iv_profile_right"
+            android:layout_toRightOf="@+id/iv_profile_left"
+            android:background="@drawable/ic_baloon_left"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:text="Nama" />
+            <TextView
+                android:id="@+id/tv_chat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                tools:text="Hello bubbles!" />
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:text="Tanggal" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_profile_left"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/ll_text_container"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="-50dp"
+            android:src="@drawable/ic_default_profile"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_profile_right"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/ll_text_container"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="-50dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_default_profile"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</LinearLayout>
